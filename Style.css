@@ -1,0 +1,194 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General sans";
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.fixedbar {
+    position: fixed;
+    right: 0;
+    top: 300px;
+    height: 200px;
+    width: 50px;
+    background-color: #fff;
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+    align-items: center;
+}
+.fixedbar-child {
+    z-index: 99999;
+    color: black;
+    font-weight: 1200;
+}
+
+#rotate {
+    
+    transform: rotate(270deg);
+}
+
+#website-flow {
+    margin: 0 53px;
+}
+
+header {
+    color: white;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-weight: 500;
+}
+
+a.name {
+    text-decoration: none;
+    color: white;
+}
+
+.head1 {
+    color: #a3a3a3;
+    font-size: 9vw;
+    font-weight: 900;
+    line-height: 120px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+#designer-text {
+    margin-left: 230px;
+    margin-top: 30px;
+}
+
+.sec3 {
+    color: white;
+    font-size: medium;
+    text-align: right;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.Sec4 {
+    padding: 200px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-parent {
+    display: flex;
+    gap: 8px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #a3a3a3;
+}
+
+.sec5 {
+    height: 100vh;
+    margin: 50px inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-row {
+    color: white;
+    border-top: 1px solid white;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#exp {
+    font-size: 150px;
+    color: #a3a3a3;
+    font-weight: bolder;
+}
+
+#exp-year {
+    font-size: 30px;
+    color: white;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0;
+}
+
+.intro-child {
+    color: white;
+    height: 100px;
+    width: 470px;
+}
+
+.photo {
+    text-align: right;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.intro-text {
+    font-size: larger;
+}
+
+#letsTalk {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 3px 18px;
+    margin: 15px 0;
+    font-weight: lighter;
+}
+
+footer {
+    margin-top: 400px;
+}
+
+.foot {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+}
+
+#YeartimeP {
+    display: flex;
+    font-weight: 700;
+}
+
+.Yeartime {
+margin: 10px 30px;
+}
+
+.social {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+}
